@@ -55,20 +55,7 @@ public class HamletParserTest {
         //Then
         Assert.assertEquals(expected,actual);
     }
-
-    @Test
-    public void testHamletParser() {
-        //Given
-        HamletParser hamletParser = new HamletParser();
-        String word = "Horatio and Hamlet";
-        String expected = "Tariq and Leon";
-
-        //When
-        String actual = hamletParser.changeHoratioAndHamletToLeonAndTariq(hamletText);
-
-        //Then
-        Assert.assertEquals(expected,actual);
-    }
+    
 
     @Test
     public void testFindHoratio() {
